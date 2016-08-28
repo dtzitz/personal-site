@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('dota-viewer');
+  this.route('weather-app');
+  this.route('library-app');
 });
 
 export default Router;
